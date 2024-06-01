@@ -96,6 +96,7 @@ public class BaseTest {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("loginBtn")));
 		
+		
 		welcomePage.getLoginBtn().click();
 		loginPage.getEmailTB().sendKeys(file.readPropertyData("username"));
 		loginPage.getPasswordTB().sendKeys(file.readPropertyData("password"));
