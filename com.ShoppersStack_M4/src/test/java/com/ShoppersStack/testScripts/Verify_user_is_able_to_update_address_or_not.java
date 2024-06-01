@@ -7,7 +7,7 @@ import com.ShoppersStack.Pom.EditAddress_Page;
 import com.ShoppersStack.Pom.MyAddress_Page;
 import com.ShoppersStack.Pom.MyProfile_Page;
 
-public class Verify_user_is_able_to_update_address_or_not_Test extends BaseTest {
+public class Verify_user_is_able_to_update_address_or_not extends BaseTest {
 
 	@Test
 	public void updateAddress() throws InterruptedException {
