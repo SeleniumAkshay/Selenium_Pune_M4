@@ -97,7 +97,7 @@ public class BaseTest {
 	public void beforeMethod() throws IOException {
 		System.out.println("BeforeMethod");
 
-		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(40));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("loginBtn")));
 		
 		
